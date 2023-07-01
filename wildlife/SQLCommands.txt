@@ -1,0 +1,8 @@
+﻿create table AdminInfo(FId int primary key auto_increment ,FEmail varchar(30),FPassword varchar(20));
+insert into AdminInfo(FEmail,FPassword) values("admin@gmail.com","admin123");
+select * from AdminInfo;
+
+
+create table SubDetails(FSId int primary key auto_increment,FName varchar(25),FEmail varchar(30));
+
+
